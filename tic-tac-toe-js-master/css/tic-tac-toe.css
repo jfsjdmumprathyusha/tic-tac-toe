@@ -1,0 +1,44 @@
+/*Styling page with bordered-box with zero padding and margin*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* A container with flex boxes with white background with center alignment with min width and height of 700px, 500px with border radius of 5% with auto margin*/
+.container {
+  display: flex;
+  background: #fff;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  border-radius: 5%;
+  margin: auto;
+}
+/* a table with Border-collapse and auto margin*/
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+/* table data with background color, border, fontsize, text color, with border radius*/
+td {
+  background-color: #666;
+  border: 5px solid white;
+  font-size: 80px;
+  color: #fff;
+  border-radius: 10%;
+}
+/* Id player with padding of 1rem*/
+#player {
+  padding: 1rem;
+}
+/* total body with display flex and with background, Height and width of 100vh and 100% with overflow hidden*/
+body {
+  display: flex;
+  background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat
+    center center/cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
